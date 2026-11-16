@@ -1,0 +1,173 @@
+h1 {
+font-size: 36px;
+margin-top: 25px;
+color: #5b2c06;
+text-align: center;
+}
+header{
+text-align: center;
+}
+.logos{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logos img {
+width: 120px;
+height: auto;
+}
+body{
+background-color: #fff8e7;
+}
+nav ul{
+list-style: none;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+width: 300px;
+margin-top: 40px;
+margin-left: 20px;
+}
+nav summary{
+display: block;
+width: 260px;
+padding: 25px;
+background-color: #66804a;
+color: white;
+text-decoration: none;
+text-align: center;
+font-size: 18px;
+border-radius: 15px;
+}
+nav details {
+display: block;
+margin-bottom: 15px;
+}
+nav details p{
+background-color: white;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+width: 400px;
+margin: 0;
+line-height: 1.5;
+}
+nav details {
+position: relative;
+}
+nav details p {
+position: absolute;
+top: 0;
+left: 280px;
+z-index: 100;
+margin: 0;
+}
+/* Ubicación del catálogo */
+.producto {
+margin-left: 220px;
+margin-top: -560px;
+padding: 20px;
+width: 700px;
+}
+/* Tamaño de las imágenes */
+.producto img {
+width: 150px;
+max-width: 100%;
+height: auto;
+display: block;
+margin: 10px 0;
+}
+/* Espacio entre productos */
+.producto li {
+margin-bottom: 5px;
+}
+.lista-productos {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: space-between;
+gap: 5px;
+width: calc(100% - 450px);
+margin-left: 450px;
+box-sizing: border-box;
+margin-top: -520px;
+}
+.lista-productos .producto{
+flex: 1;
+min-width: 0;
+margin: 0;
+padding: 10px;
+box-sizing: border-box;
+}
+.producto {
+width: auto;
+flex: 1;
+min-width: 0;
+}
+.tabla-especias table {
+width: 100%;
+border-collapse: collapse;
+table-layout: fixed;
+}
+.tabla-especias th,
+.tabla-especias td {
+border: 1px solid #777;
+padding: 8px;
+text-align: left;
+overflow-wrap: break-word;
+}
+.tabla-especias th {
+background-color: #647f4b;
+color: white;
+}
+/* Diseño de la tabla de especias */
+.tabla-especias table {
+width: 100%;
+border-collapse: collapse;
+background-color: #fffaf0;
+font-size: 14px;
+}
+.tabla-especias th {
+background-color: #66804a;
+color: white;
+padding: 10px;
+text-align: left;
+}
+.tabla-especias td {
+border: 1px solid #d5c8ad;
+padding: 10px;
+vertical-align: middle;
+}
+.tabla-especias tr:hover {
+background-color: #eee7d5;
+}
+/* Mensaje de contacto */
+.mensaje-contacto {
+background-color: white;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+text-align: center;
+width: 400px;
+box-sizing: border-box;
+}
+.mensaje-contacto p {
+margin-top: 0;
+margin-bottom: 18px;
+line-height: 1.5;
+}
+/* Botón de WhatsApp */
+.boton-whatsapp {
+display: inline-block;
+background-color: #25D366;
+color: white;
+padding: 12px 18px;
+border-radius: 8px;
+text-decoration: none;
+font-weight: bold;
+}
+.boton-whatsapp:hover {
+background-color: #1DA851;
+}

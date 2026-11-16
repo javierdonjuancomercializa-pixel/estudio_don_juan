@@ -1,0 +1,133 @@
+<doctype html>
+<html long="es">    
+<head>
+<link rel="stylesheet" href="estilos.css">    
+<meta charset="uft-8>">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COMERCIALIZADORA DON JUAN</title>
+</head>
+<body> 
+<header>
+<div class="logos">
+<img src="especias.png" alt="especias">
+<img src="logo.png" alt="sirope de miel">
+<img src="limon.png" alt="zumo de limon">
+</div>
+<h1>COMERCIALIZADORA DON JUAN</h1>
+<p>Productos alimenticios para tu negocio y hogar</p>
+<nav>
+<ul>
+<li>
+<details>
+<summary onclick="mostrarmenu(this.parentElement)">Quienes somos</summary>
+<p>Somos Comercializadora Don Juan, una empresa colombiana que ofrece productos alimenticios para negocios y hogares. Trabajamos para brindar una buena atención y productos que respondan a las necesidades de nuestros clientes. Nos gusta mantener una relación cercana con las personas que confían en nosotros y cumplir con nuestros compromisos.</p>    
+</details>    
+</li>
+<li>
+<details>
+<summary onclick="mostrarmenu(this.parentElement)">Mision</summary>
+<p>Ofrecer productos alimenticios para tiendas, supermercados y hogares, procurando brindar una buena atención y cumplir con los pedidos de nuestros clientes. Queremos que quienes compren nuestros productos se sientan satisfechos y sigan contando con nosotros.</p>  
+</details>    
+</li>
+<li>
+<details>
+<summary onclick="mostrarmenu(this.parentElement)">Vision</summary>
+<p>Ofrecemos productos como sirope con sabor a miel, jugo de limón, miel y especias. Contamos con diferentes presentaciones para que nuestros clientes puedan elegir la que mejor se adapte a sus necesidades, ya sea para su negocio o para el hogar.</p>    
+</details>    
+</li>
+<li>
+<details>
+<summary onclick="mostrarmenu(this.parentElement)">Catalogo</summary>
+<p>En nuestro catálogo encontrarás productos alimenticios como sirope con sabor a miel, jugo de limón, miel y especias. Contamos con diferentes presentaciones para tiendas, supermercados y hogares, buscando ofrecer productos que se adapten a las necesidades de nuestros clientes.</p>
+</details>    
+</li>
+<li>
+<details>
+<summary onclick="mostrarmenu(this.parentElement)">Contactanos</summary>
+<div class="mensaje-contacto">
+<p>¿Deseas conocer nuestros productos o realizar un pedido?</p>
+<a class="boton-whatsapp"
+href="https://wa.me/573219141489"
+target="_blank">
+Escríbenos por WhatsApp
+</a>
+</div>  
+</details>
+</li>
+</ul>    
+</nav>
+</header>
+<div class="lista-productos">
+<div class="producto">
+<h3>Sirope con sabor a miel</h3>
+<img src="miel_botella.png" alt="Sirope con sabor a miel">
+<p>Presentaciones disponibles:</p>
+<ol>
+<li>Doypack de 150 gramos</li>
+<li>Doypack de 300 gramos</li>
+<li>Botella de 500 gramos</li>
+<li>Botella de 1 kilo</li>
+<li>Galón de 5 kilos</li>
+</ol>
+</div>
+<div class="producto">
+<h3>Zumo de limón</h3>
+<img src="zumo375.png" alt="Zumo de limón">
+<p>Presentaciones disponibles:</p>
+<ol>
+<li>Botella de 375 ml</li>
+<li>Botella de 1 litro</li>
+<li>Botella de 2 litros</li>
+<li>Galón de 5 litros</li>
+</ol>
+</div>
+<div class="producto tabla-especias">
+<h3>Catalogo de especias</h3>
+<table>
+<tr>
+<th>Producto</th>
+<th>Gramaje</th>
+<th>Empaque</th>    
+</tr>    
+<tr>
+<td>Jamaica</td>
+<td>8, 10, 25 gr</td>
+<td>Plastico de sellado de alimentos</td>    
+</tr>
+<tr>
+<td>Curcuma</td> 
+<td>8, 10, 25 gr</td>
+<td>Plastico de sellado de alimentos</td>    
+</tr>
+<tr>
+<td>Paprika</td>
+<td>8, 10, 25 gr</td>
+<td>Plastico de sellado de alimentos</td>    
+</tr>
+<tr>
+<td>Romero</td>
+<td>8, 10, 25 gr</td>
+<td>Plastico de sellado de alimentos</td>    
+</tr>
+<tr>
+<td>Oregano</td>
+<td>8, 10, 25 gr</td>
+<td>Plastico de sellado de alimentos</td>    
+</tr>
+</table>
+</div>
+</div>
+</section>
+</section>
+<script>
+function mostrarmenu(seleccionado) {
+let menus = document.querySelectorAll("nav details");
+menus.forEach(function(menu) {
+if (menu !== seleccionado) {
+menu.open = false;
+}
+});
+}
+</script>
+</body>
+</html>
